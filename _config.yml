@@ -4,10 +4,10 @@
 baseurl:
 url: http://Fersox.github.io
 date_format: "ordinal"
-title: Fersx
-subtitle: "打码改变人生"
+title: Fersox
+subtitle: "厚积薄发"
 description: "个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+keywords: Zhuang Ma, mzlogin, mazhuang
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -17,10 +17,10 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: jianyu.wang
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+#organization: Sogou, Inc.
+#organization_url: https://www.sogou.com
 location: Beijing, China
-email: chumpma@gmail.com
+email: jianyu.wang2013@gmail.com
 
 # ---------------- #
 #    Navigation    #
