@@ -36,10 +36,12 @@ author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if 
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 ### Theme Color 
 theme_color:
-    theme: jacman    ##the defaut theme color is blue
+    theme: '#2ca6cb'    ##the defaut theme color is blue
 
+theme: jacman
 stylus:
   compress: true
+
 
 # 代码高亮主题
 # available: default | night
