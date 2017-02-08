@@ -1,106 +1,79 @@
-# Jacman
+# 码志
 
-[中文说明](/README_zh.md)
+我的个人博客：<http://mazhuang.org>，欢迎 Star 和 Fork。
 
-Jacman is a fresh looking and responsive theme for [Hexo](http://hexo.io) with more features and some build-in Chinese service based on [Pacman](https://github.com/A-limon/pacman).  
+## 概览
 
-**Jacman support Hexo 3.0 now !**
+<!-- vim-markdown-toc GFM -->
+* [效果预览](#效果预览)
+* [Fork 指南](#fork-指南)
+* [贴心提示](#贴心提示)
+* [经验与思考](#经验与思考)
+* [致谢](#致谢)
 
-[Demo](http://jacman.wuchong.me)
+<!-- vim-markdown-toc -->
 
-[如何使用 Jacman 主题](http://jacman.wuchong.me/2014/11/20/how-to-use-jacman/)
+## 效果预览
 
-##Installation
-###Install
-```
-$ git clone https://github.com/wuchong/jacman.git themes/jacman
-```
-**Jacman requires Hexo 2.7 and above.** 
-###Enable
-Modify `theme` setting in blog folder` _config.yml` to `jacman`.
-###Update
-```
-cd themes/jacman
-git pull origin master
-```
-**please backup your `_config.yml` file before update.** 
+**[在线预览 &rarr;](http://mazhuang.org)**
 
-##Configuration
+![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
 
-Modify settings in  `/themes/jacman/_config.yml`. [Learn More](https://github.com/wuchong/jacman/wiki/%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97).
+## Fork 指南
 
-##Features
-- **menu**  
- Main navigation menu.
-- **widget**  
- Widgets displaying in sidebar.The category,tag,rss,archive,tagcloud,links,weibo are supported.
-- **Image**  
- Images about favicon, site logo, author image, banner image. Support different image styles like `img-logo`,`img-topic`,`img-center` etc.
-- **index**  
- Two different home page display modes.You can visit [Demo](http://jacman.wuchong.me) to check the difference.
-- **author**  
- Author imformation, used to show your social network links on the bottom right. Including github, stackoverflow, twitter, facebook, linkedin, google+, weibo, douban, zhihu, email.
-- **toc**  
- Show Table Of Contents in article & aside.
-- **comments**  
- [duoshuo](http://duoshuo.com/) & [disqus](https://disqus.com/) are supported.
-- **jiathis**  
- Build-in share tool or [JiaThis](http://www.jiathis.com/) share buttons at the bottom of articles.
-- **Analytiscs**  
- [Google analytics](http://www.google.com/analytics/) & [Baidu tongji](http://tongji.baidu.com/) & [CNZZ tongji](http://www.cnzz.com/) are all supported.
-- **Search**  
- [Googlle Custom Search](https://www.google.com/cse/ ) & [Baidu Site Search](http://zn.baidu.com/) & [Tiny Search](http://tinysou.com/) are supported.
-- **totop**  
- Scroll to top
-- **rss**  
- RSS subscription link (change if using Feedburner).
-- **fancybox**  
- Enable [Fancybox](http://fancyapps.com/fancybox/)
-- **custom theme color**
- Mondify theme color in `_config.yaml` instead of finding unfamiliar stylus files.
-- **others**
- You can configure sidebar not show in post pages.
+Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
 
-You can learn how to use them from [Configuration](https://github.com/wuchong/jacman/wiki/配置指南).
+1. 正确设置项目名称与分支。
 
-##Sites
-- [Jacman Theme](http://jacman.wuchong.me) - The demo site of Jacman Theme
-- [Jark's Blog](http://wuchong.me) - The author's blog of Jacman
-- [阿杜个人博客](http://ralphadu.com) - 阿杜个人博客
-- [PhiloSky's Blog](http://philosky.ml/) - Personal blog
-- [hiluSdream](http://hiluluke.cn) - 梦想是无所谓无的，无所谓有的
-- [Melface](http://melface.tk) - Personal blog
-- [heamon7's Utopia](http://heamon7.com) - 修行绝尘，悟道涉俗
-- [PegasusWang's Blog](http://ningning.today) - 你的问题主要在于读书不多而想得太多
-- [青劲草](http://www.caoqq.net) - 学会记录成长点滴
-- [Vigorass](http://cscao.com) - Learn to record dripping growth
-- [MoqiZhan](http://moqizhan.com) - 人生就是不停的战斗
-- [Think Differently](http://think-diff.me/) - If You Can Think Differently, You Can Act Differently.
-- [ylf](http://wangyangyang.gitcafe.com) - 王洋洋
-- [Gevin's blog](http://blog.igevin.info/) - Stay hungry, stay foolish; Stop when you are perfect.
-- [keychar](http://keychar.com) - A technology blog, design & programming.
-- [peng的博客](http://chenpengdsp.com) - 人生就是不停的战斗
-- [More and More](http://aeesky.github.io) -刚起步：）
-- [好久不见](http://dpast.org) - Julian Zhu
-- [keke2014's blog](http://jukezhang.com/) - Stay hungry, stay foolish - Steve Jobs
-- [Eurry](http://www.eurry.net) - Eurry's Blog.
-- [sencle's blog](http://isencle.com) -just do it
-- [Oxymoron's Blog](http://ioxymoron.me) - Let's start from here.
-- [HelloDog](http://wsgzao.github.io) - Keep Clam and Carry On
-- [屠城｜屠夫9441的博客](http://haomwei.com) - 苟全性命于乱世，不求闻达于诸侯。
-- [Ice He. 何志遠](http://icehe.github.io/) - Less is more. 寧靜致遠。
-- [prokitty，侏罗纪公园](http://www.prokitty.com) -Belive yourself,belive Cherry.
-- [Ceclinux](http://ceclinux.org) - Arch is the best
-- [BruceGe's blog](http://brucege.com) - Start Blogging
-- [Yangxiaolei's blog](http://yangxiaolei.me) - 让知识成为信仰，让优秀成为习惯
-- [CC's blog](http://ccloveyou.org) - CC
-- [TadGuo's pages](http://watermeion.github.io) - More is different.
-- [Mutse's blog](http://mutse.github.io) - Love Life, Love open source
-- [唐巧的技术博客](http://blog.devtang.com/) - 巧神
-- [Salogs](http://salogs.com/) - 拥抱开源，分享经验!
+   按照 GitHub Pages 的规定，名称为 `username.github.io` 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。
 
+2. 修改域名。
 
-If you are using Jacman,you can add your site [here](https://github.com/wuchong/jacman/wiki/Sites) ! I'll push the available sites here.
+   如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。
 
-##License
-[MIT](/LICENSE)
+3. 修改配置。
+
+   网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 title、subtitle、duoshuo 和 Disqus 的用户名等。
+
+   **注意：** 因为 Disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus\_username 修改成你自己的。我对该缺陷的记录见 [Issues#2][3]。
+
+4. 删除我的文章与图片。
+
+   如下文件夹中除了 template.md 文件外，都可以全部删除，然后添加你自己的内容。
+
+   * \_posts 文件夹中是我已发布的博客文章。
+   * \_drafts 文件夹中是我尚未发布的博客文章。
+   * \_wiki 文件夹中是我已发布的 wiki 页面。
+   * images 文件夹中是我的文章和页面里使用的图片。
+
+5. 修改「关于」页面。
+
+   pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息。
+
+## 贴心提示
+
+1. 排版建议遵照一定的规范，推荐 [中文文案排版指北（简体中文版）][1]。
+
+2. 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
+
+## 经验与思考
+
+* 简约，尽量每个页面都不展示多余的内容。
+
+* 有时一图抵千言，有时可能只会拖慢网页加载速度。
+
+* 言之有物，不做无痛之呻吟。
+
+* 如果写技术文章，那先将技术原理完全理清了再开始写，一边摸索技术一边组织文章效率较低。
+
+* 杜绝难断句、难理解的长句子，如果不能将其拆分成几个简洁的短句，说明脑中的理解并不清晰。
+
+* 可以学习一下那些高质量的博主，他们的行文，内容组织方式，有什么值得借鉴的地方。
+
+## 致谢
+
+本博客外观基于 [DONGChuan](http://dongchuan.github.io) 修改，感谢！
+
+[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
+[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
+[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
