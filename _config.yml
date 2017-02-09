@@ -54,7 +54,10 @@ subscribe_rss: /feed.xml
 # ---------------- #
 #      Jekyll      #
 # ---------------- #
-markdown: kramdown
+#markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: ["tables"]
 kramdown:
     input: GFM
 highlighter: rouge
