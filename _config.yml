@@ -7,7 +7,7 @@ date_format: "ordinal"
 title: Fersox
 subtitle: "厚积薄发"
 description: "个人博客"
-keywords: Zhuang Ma, mzlogin, mazhuang
+keywords:
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -79,7 +79,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: Fersox/Fersox.github.io
 
 # ---------------- #
 #      Socials     #
